@@ -23,4 +23,5 @@ urlpatterns = [
     path('jobs/',include('jobs.urls')),
     path('applications/',include('applications.urls')),
     path('dashboard/',include('dashboard.urls')),
+    path('notifications/',include('notifications.urls')),
 ]
