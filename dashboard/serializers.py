@@ -14,4 +14,3 @@ class JobSeekerDashboardSerializer(serializers.Serializer):
     reviewed = serializers.IntegerField()
     shortlisted = serializers.IntegerField()
     rejected = serializers.IntegerField()
-    hired = serializers.IntegerField()
